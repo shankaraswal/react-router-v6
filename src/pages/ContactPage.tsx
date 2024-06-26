@@ -5,7 +5,7 @@ function ContactPage() {
     <div>
       <article className="prose lg:prose-xl">
         <h1 className="text-xl font-bold  text-teal-700 md:text-4xl dark:text-teal-900 mb-6">
-          Hello, World!
+          Contact Us Page
         </h1>
         <p>
           Before you begin, I would recommend that you start out by downloading

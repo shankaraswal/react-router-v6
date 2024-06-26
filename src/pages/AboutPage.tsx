@@ -5,7 +5,7 @@ function AboutPage() {
     <div>
       <article className="prose lg:prose-xl">
         <h1 className="text-xl font-bold  text-teal-700 md:text-4xl dark:text-teal-900 mb-6">
-          Garlic bread with cheese: What the science tells us
+          About Us Page
         </h1>
         <p>
           For years parents have espoused the health benefits of eating garlic

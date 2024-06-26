@@ -11,6 +11,7 @@ import AboutPage from "./pages/AboutPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
 import ErrorPage from "./pages/ErrorPage.tsx";
 import PageNotFound from "./pages/PageNotFound.tsx";
+import UserDetailPage from "./pages/UserDetailPage.tsx";
 
 const routeConfig = {
   path: "/",
@@ -28,10 +29,10 @@ const routeConfig = {
       path: "/contact",
       element: <ContactPage />,
     },
-    // {
-    //   path: "*",
-    //   element: <ErrorPage />,
-    // },
+    {
+      path: "/user/:userId",
+      element: <UserDetailPage />,
+    },
   ],
 };
 
